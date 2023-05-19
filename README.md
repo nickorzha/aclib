@@ -1,13 +1,3 @@
-[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)
-[![All Contributors](https://img.shields.io/github/all-contributors/nfrechette/acl)](#contributors-)
-[![Build status](https://ci.appveyor.com/api/projects/status/8h1jwmhumqh9ie3h/branch/develop?svg=true)](https://ci.appveyor.com/project/nfrechette/acl)
-[![Build status](https://github.com/nfrechette/acl/workflows/build/badge.svg)](https://github.com/nfrechette/acl/actions)
-[![Sonar Status](https://sonarcloud.io/api/project_badges/measure?project=nfrechette_acl&metric=alert_status)](https://sonarcloud.io/dashboard?id=nfrechette_acl)
-[![GitHub release](https://img.shields.io/github/release/nfrechette/acl.svg)](https://github.com/nfrechette/acl/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nfrechette/acl/master/LICENSE)
-[![Conan](https://img.shields.io/badge/on-conan-blue.svg)](https://conan.io/center/nfrechette-acl)
-[![Discord](https://img.shields.io/discord/691048241864769647?label=discord)](https://discord.gg/UERt4bS)
-
 # Animation Compression Library
 
 Animation compression is a fundamental aspect of modern video game engines. Not only is it important to keep the memory footprint down but it is also critical to keep the animation clip sampling performance fast.
@@ -62,9 +52,9 @@ The [Unreal Engine](https://www.unrealengine.com/en-US/blog) is supported throug
 
 This library is **100%** headers as such you just need to include them in your own project to start using it. However, if you wish to run the unit tests, regression tests, to contribute to ACL or use it for research, head on over to the [getting started](./docs/getting_started.md) section in order to setup your environment and make sure to check out the [contributing guidelines](CONTRIBUTING.md).
 
-If you would like to integrate ACL into your own game engine, follow the integration instructions [here](./docs#how-to-integrate-the-library).
+If you would like to integrate ACLIB into your own game engine, follow the integration instructions [here](./docs#how-to-integrate-the-library).
 
-You can install `nfrechette-acl` with [Conan](https://conan.io/center/nfrechette-acl).
+You can install `aclib` with Conan.
 
 ## Performance metrics
 
@@ -85,40 +75,5 @@ This project uses the [MIT license](LICENSE).
 Copyright (c) 2017 Nicholas Frechette & Animation Compression Library contributors
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CodyDWJones"><img src="https://avatars.githubusercontent.com/u/28773740?v=4?s=100" width="100px;" alt="CodyDWJones"/><br /><sub><b>CodyDWJones</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=CodyDWJones" title="Code">💻</a> <a href="#data-CodyDWJones" title="Data">🔣</a> <a href="#maintenance-CodyDWJones" title="Maintenance">🚧</a> <a href="#tool-CodyDWJones" title="Tools">🔧</a> <a href="#infra-CodyDWJones" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#ideas-CodyDWJones" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Meradrin"><img src="https://avatars.githubusercontent.com/u/7066278?v=4?s=100" width="100px;" alt="Meradrin"/><br /><sub><b>Meradrin</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=Meradrin" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tirpidz"><img src="https://avatars.githubusercontent.com/u/9991876?v=4?s=100" width="100px;" alt="Martin Turcotte"/><br /><sub><b>Martin Turcotte</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=tirpidz" title="Code">💻</a> <a href="#tool-tirpidz" title="Tools">🔧</a> <a href="#ideas-tirpidz" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vjeffh"><img src="https://avatars.githubusercontent.com/u/22382688?v=4?s=100" width="100px;" alt="vjeffh"/><br /><sub><b>vjeffh</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=vjeffh" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Romain-Piquois"><img src="https://avatars.githubusercontent.com/u/3689912?v=4?s=100" width="100px;" alt="Romain-Piquois"/><br /><sub><b>Romain-Piquois</b></sub></a><br /><a href="https://github.com/nfrechette/acl/issues?q=author%3ARomain-Piquois" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/janisozaur"><img src="https://avatars.githubusercontent.com/u/550290?v=4?s=100" width="100px;" alt="Michał Janiszewski"/><br /><sub><b>Michał Janiszewski</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=janisozaur" title="Code">💻</a> <a href="#tool-janisozaur" title="Tools">🔧</a> <a href="#maintenance-janisozaur" title="Maintenance">🚧</a> <a href="#infra-janisozaur" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://keybase.io/visualphoenix"><img src="https://avatars.githubusercontent.com/u/394175?v=4?s=100" width="100px;" alt="Raymond Barbiero"/><br /><sub><b>Raymond Barbiero</b></sub></a><br /><a href="#ideas-visualphoenix" title="Ideas, Planning, & Feedback">🤔</a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ddeadguyy"><img src="https://avatars.githubusercontent.com/u/42090666?v=4?s=100" width="100px;" alt="ddeadguyy"/><br /><sub><b>ddeadguyy</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=ddeadguyy" title="Code">💻</a> <a href="#ideas-ddeadguyy" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://gitlab.com/intelligide"><img src="https://avatars.githubusercontent.com/u/12529837?v=4?s=100" width="100px;" alt="Yoann Potinet"/><br /><sub><b>Yoann Potinet</b></sub></a><br /><a href="#infra-intelligide" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jbrd-pg"><img src="https://avatars.githubusercontent.com/u/100773491?v=4?s=100" width="100px;" alt="James Bird"/><br /><sub><b>James Bird</b></sub></a><br /><a href="#ideas-jbrd-pg" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nfrechette/acl/commits?author=jbrd-pg" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/GermanAizek"><img src="https://avatars.githubusercontent.com/u/21138600?v=4?s=100" width="100px;" alt="Herman Semenov"/><br /><sub><b>Herman Semenov</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=GermanAizek" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Dreaming381"><img src="https://avatars.githubusercontent.com/u/25555355?v=4?s=100" width="100px;" alt="Tyler"/><br /><sub><b>Tyler</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=Dreaming381" title="Code">💻</a> <a href="#ideas-Dreaming381" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/naetherm"><img src="https://avatars.githubusercontent.com/u/16878712?v=4?s=100" width="100px;" alt="naetherm"/><br /><sub><b>naetherm</b></sub></a><br /><a href="https://github.com/nfrechette/acl/commits?author=naetherm" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
