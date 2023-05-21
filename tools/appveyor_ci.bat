@@ -13,7 +13,7 @@ echo Config: %CONFIG%
 echo Toolchain: %TOOLCHAIN%
 echo Python path: %PYTHON_PATH%
 
-REM Convert the build image and toolchain into our compiler string
+REM Convert the build image and toolchain into our compiler string.
 IF /i %TOOLCHAIN%==msvc GOTO :msvc
 IF /i %TOOLCHAIN%==clang GOTO :clang
 
